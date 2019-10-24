@@ -1,2 +1,5 @@
 [linux]
 192.168.56.114
+ansible_connection=ssh
+ansible_user=ansi
+ansible_ssh_pass=pass
