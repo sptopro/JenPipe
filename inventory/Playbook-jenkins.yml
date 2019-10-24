@@ -12,7 +12,7 @@
 
     - name: Download jenkins.repo
       get_url:
-        url: http://pkg.jenkins.io/debian-stable binary/
+        url: deb https://pkg.jenkins.io/debian-stable binary/
         dest: /etc/apt/sources.list.d/jenkins.list
 
     - name: Import Jenkins Key
