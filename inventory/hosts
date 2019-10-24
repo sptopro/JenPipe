@@ -1,5 +1,6 @@
-[linux]
-192.168.56.114
+[all:vars]
 ansible_connection=ssh
 ansible_user=ansi
 ansible_ssh_pass=pass
+[linux]
+192.168.56.114
