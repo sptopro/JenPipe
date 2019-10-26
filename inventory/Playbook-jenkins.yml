@@ -15,11 +15,6 @@
         url: 'https://pkg.jenkins.io/debian-stable/'
         dest: /etc/apt/sources.list.d/jenkins.list
 
-    - name: Import Jenkins Key
-      rpm_key:
-        state: present
-        key: https://pkg.jenkins.io/debian/jenkins.io.key
-
     - name: Install Jenkins
       apt:
         name: jenkins
